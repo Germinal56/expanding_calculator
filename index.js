@@ -68,9 +68,6 @@ class Calc extends React.Component {
         return (
             <div>
                 <div id="white-flash"></div>
-                <div id="optimus">
-                    <img src="./optimus.png" />
-                </div>
                 <button
                     id="expand"
                     className="btn btn-warning bigger"
@@ -137,6 +134,9 @@ class Calc extends React.Component {
                         <button id="decimal" className="btn btn-light bigger" onClick={() => this.handleClick('.')}>.</button>
                         <button id="equals" className="btn btn-primary bigger" onClick={() => this.setResults()}>=</button>
                     </div>
+                </div>
+                <div id="optimus">
+                    <img src="./optimus.png" />
                 </div>
             </div>
         )
